@@ -21,6 +21,9 @@ const Layout = ({ children }) => {
           <Link href="/CuteCats" className="hover:bg-gray-700 rounded-md p-2">
             Cute Cats
           </Link>
+          <Link href="/Weather" className="hover:bg-gray-700 rounded-md p-2">
+            Weather
+          </Link>
         </nav>
       </header>
       <main className="flex-grow p-4">{children}</main>
