@@ -7,7 +7,7 @@ Welcome to **Stellar Tools**! 🎉 A collection of useful (more like useless but
 - **Color Picker**: Well... it is a color picker. Really.
 - **Cute Cats**: Dangerous stuff.
 - **Clock**: Just a simple clock.
-- **Coming Soon**
+- **Weather Forecast**: WEATHER FORECAST! Type a city and hit enter to search!
 
 ## 🛠️ Technologies Used
 
