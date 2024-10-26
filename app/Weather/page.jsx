@@ -21,6 +21,7 @@ const Weather = () => {
 
   const fetchWeather = async () => {
     const apiKey = process.env.NEXT_PUBLIC_API_KEY ;
+    console.log(apiKey);
 
     try {
       const response = await axios.get(
