@@ -30,7 +30,7 @@ const Weather = () => {
       setError(null);
     } catch (error) {
       console.error("Error fetching weather data:", error);
-      setError("Cidade não encontrada. Tente novamente.");
+      setError("City not found. Try again.");
       setWeather(null);
     }
   };
@@ -46,7 +46,7 @@ const Weather = () => {
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
           type="text"
-          placeholder="Digite o nome da cidade"
+          placeholder="Enter the name of the city"
         />
         
         <button
@@ -54,7 +54,7 @@ const Weather = () => {
           onClick={fetchWeather}
           type="submit"
         >
-          Consultar
+          Search
         </button>
 
         {error && <p className="text-red-500 mt-4">{error}</p>}
